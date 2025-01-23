@@ -7,7 +7,7 @@ import os
 
 class QRCodeGenerator:
     def __init__(self):
-        # 创建主窗口
+        # 创建主窗口     第一次增加的
         self.root = ThemedTk(theme="arc")  # 使用现代主题
         self.root.title("URL二维码生成器")
         self.root.geometry("600x700")
